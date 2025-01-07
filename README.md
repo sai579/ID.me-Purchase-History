@@ -2,9 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Running the application
 
-In the project directory, run:
+### Clone repository
+
+In your desired folder, run:
+
+git clone https://github.com/sai579/ID.me-Purchase-History.git
+
+This will clone the code into a folder.
+
+cd into the cloned directory.
 
 ### `npm install`
 
