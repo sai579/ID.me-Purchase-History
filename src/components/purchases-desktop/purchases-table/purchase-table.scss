@@ -1,0 +1,71 @@
+@mixin category($background, $color, $boxShadow, $width) {
+    background: $background;
+    color: $color;
+    box-shadow: $boxShadow;
+    outline: none;
+    border-radius: 0.125rem;
+    line-height: 1.5rem;
+    padding: 0 0.5rem;
+    white-space: nowrap;
+    display: inline-block;
+    width: $width;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.table-container {
+    border: 1px solid #dfdfdf;
+    margin-top: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 15px;
+}
+
+.row-header {
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+}
+
+.row-data {
+    font-size: 12px;
+}
+
+th,
+td {
+    padding: 1.25rem;
+}
+
+.technology {
+    @include category(none, black, inset 0 0 0 0.0625rem #515357, 5rem)
+}
+
+.shopping {
+    @include category(none, #004f9a, inset 0 0 0 0.0625rem #515357, 5rem)
+}
+
+.entertainment {
+    @include category(none, #004f9a, inset 0 0 0 0.0625rem #515357, 5rem)
+}
+
+.automotive {
+    @include category(none, red, inset 0 0 0 0.0625rem maroon, 5rem)
+}
+
+.footwear {
+    @include category(none, rgb(24, 60, 94), inset 0 0 0 0.0625rem #515357, 5rem)
+}
+
+.food {
+    @include category(none, darkgreen, inset 0 0 0 0.0625rem rgb(98, 192, 98), 5rem)
+}
+
+.travel {
+    @include category(none, #c3682b, inset 0 0 0 0.0625rem #b38a6e, 5rem)
+}
+
+.apparel {
+    @include category(none, #ba3030, inset 0 0 0 0.0625rem #b56666, 5rem)
+}

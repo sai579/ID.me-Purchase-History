@@ -1,0 +1,20 @@
+.purchases-container {
+    margin: 5rem;
+}
+
+.purchases-header {
+    display: flex;
+    font-size: calc(20px + 2vmin);
+    font-weight: 700;
+}
+
+.purchase-location-image {
+    height: 3rem;
+    width: 3rem;
+}
+
+.context-menu:after {
+    content: '\2807';
+    font-size: 22px;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.purchase-location-image {
+    height: 3rem;
+    width: 3rem;
+}
+
+.purchase-card-container {
+    margin: 0 0 1rem 0;
+    gap: 1rem;
+    display: grid;
+    border: 1px solid #b6b3b3;
+    border-radius: 10px;
+    padding: 2rem;
+
+    .purchase-card-row1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .purchase-card-row2 {
+        text-align: left;
+        width: 60%;
+        font-family: serif;
+    }
+
+    .purchase-price {
+        float: right;
+    }
+
+    .purchase-date-label {
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+
+    .purchase-date {
+        font-family: sans-serif;
+    }
+}
